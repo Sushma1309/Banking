@@ -6,7 +6,7 @@ class Banking_System
     public Banking_System()
     {
         Console.SetWindowSize(100, 25);
-        Console.Title = "GTBPI Banking System[v1.2.0.8]";
+        Console.Title = "Banking System[v1.2.0.8]";
         Console.ForegroundColor = ConsoleColor.White;
     }
     private int MainMenu()
@@ -88,9 +88,9 @@ class Banking_System
         Console.BackgroundColor = ConsoleColor.DarkBlue;
         DrawLine();
         Console.WriteLine("|{0}|", AlignText(0, ""));
-        Console.WriteLine("|{0}|", AlignText(34, "GTBPI Banking System v1.2.0.8"));
-        Console.WriteLine("|{0}|", AlignText(35, "Developed By Yash Bhardwaj"));
-        Console.WriteLine("|{0}|", AlignText(34, "Computer Engineering[Vth Sem]"));
+        Console.WriteLine("|{0}|", AlignText(34, "Banking System v1.2.0.8"));
+        Console.WriteLine("|{0}|", AlignText(35, "Developed By Prasidh Jain"));
+        Console.WriteLine("|{0}|", AlignText(34, "Computer Engineering"));
         Console.WriteLine("|{0}|", AlignText(0, ""));
         DrawLine();
         Console.BackgroundColor = ConsoleColor.Black;
