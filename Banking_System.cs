@@ -12,7 +12,7 @@ class Banking_System
     private int MainMenu()
     {
         Console.Clear();
-        Center("**** Welcome to GTBPI Banking System ****\n");
+        Center("**** Welcome to Banking System ****\n");
         Console.BackgroundColor = ConsoleColor.DarkBlue;
         DrawLine();
         Console.WriteLine("|{0}|", AlignText(0, ""));
